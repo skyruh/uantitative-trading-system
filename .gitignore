@@ -1,0 +1,96 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data Files (large files)
+data/stocks/*.csv
+data/processed/*.csv
+data/indicators/*.csv
+data/news/*.csv
+data/backups/
+data/temp/
+data/cache/
+
+# Model Files (large files)
+models/*.keras
+models/*.h5
+models/checkpoints/
+models/lstm_models/
+models/dqn_models/
+
+# Logs
+logs/
+*.log
+
+# Results and Visualizations
+results/
+data/visualizations/
+data/performance/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+
+# API Keys and Secrets
+.env
+config/api_keys.json
+config/secrets.json
+
+# System State
+data/system_state.json
+data/metadata.json
+
+# Backup files
+*.bak
+*.backup
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar

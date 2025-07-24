@@ -1,0 +1,2593 @@
+{
+  "timestamp": "2025-07-23T20:36:54.324892",
+  "total_files": 517,
+  "success_count": 517,
+  "failed_count": 0,
+  "results": [
+    {
+      "symbol": "AADHARHFC",
+      "success": true,
+      "row_count": 98
+    },
+    {
+      "symbol": "360ONE",
+      "success": true,
+      "row_count": 1248
+    },
+    {
+      "symbol": "ABSLAMC",
+      "success": true,
+      "row_count": 737
+    },
+    {
+      "symbol": "AAVAS",
+      "success": true,
+      "row_count": 1479
+    },
+    {
+      "symbol": "ABCAPITAL",
+      "success": true,
+      "row_count": 1751
+    },
+    {
+      "symbol": "ACMESOLAR",
+      "success": true,
+      "row_count": 0
+    },
+    {
+      "symbol": "ACI",
+      "success": true,
+      "row_count": 462
+    },
+    {
+      "symbol": "ADANIENSOL",
+      "success": true,
+      "row_count": 275
+    },
+    {
+      "symbol": "ABFRL",
+      "success": true,
+      "row_count": 2764
+    },
+    {
+      "symbol": "ADANIGREEN",
+      "success": true,
+      "row_count": 1554
+    },
+    {
+      "symbol": "ABBOTINDIA",
+      "success": true,
+      "row_count": 3864
+    },
+    {
+      "symbol": "AEGISLOG",
+      "success": true,
+      "row_count": 85
+    },
+    {
+      "symbol": "ACL",
+      "success": true,
+      "row_count": 3384
+    },
+    {
+      "symbol": "AFCONS",
+      "success": true,
+      "row_count": 0
+    },
+    {
+      "symbol": "ADL",
+      "success": true,
+      "row_count": 991
+    },
+    {
+      "symbol": "ACE",
+      "success": true,
+      "row_count": 4443
+    },
+    {
+      "symbol": "AARTIIND",
+      "success": true,
+      "row_count": 5530
+    },
+    {
+      "symbol": "3MINDIA",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "ABB",
+      "success": true,
+      "row_count": 5530
+    },
+    {
+      "symbol": "ACC",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "AIIL",
+      "success": true,
+      "row_count": 110
+    },
+    {
+      "symbol": "AFFLE",
+      "success": true,
+      "row_count": 1274
+    },
+    {
+      "symbol": "AKUMS",
+      "success": true,
+      "row_count": 39
+    },
+    {
+      "symbol": "ADANIPOWER",
+      "success": true,
+      "row_count": 3730
+    },
+    {
+      "symbol": "AKI",
+      "success": true,
+      "row_count": 368
+    },
+    {
+      "symbol": "ADANIPORTS",
+      "success": true,
+      "row_count": 4153
+    },
+    {
+      "symbol": "ALIVUS",
+      "success": true,
+      "row_count": 0
+    },
+    {
+      "symbol": "ADANIENT",
+      "success": true,
+      "row_count": 5529
+    },
+    {
+      "symbol": "AIL",
+      "success": true,
+      "row_count": 791
+    },
+    {
+      "symbol": "ABREL",
+      "success": true,
+      "row_count": 7222
+    },
+    {
+      "symbol": "ANANDRATHI",
+      "success": true,
+      "row_count": 694
+    },
+    {
+      "symbol": "AKG",
+      "success": true,
+      "row_count": 1440
+    },
+    {
+      "symbol": "ANGELONE",
+      "success": true,
+      "row_count": 990
+    },
+    {
+      "symbol": "AMBER",
+      "success": true,
+      "row_count": 1648
+    },
+    {
+      "symbol": "ALKEM",
+      "success": true,
+      "row_count": 2168
+    },
+    {
+      "symbol": "AIAENG",
+      "success": true,
+      "row_count": 4638
+    },
+    {
+      "symbol": "AGI",
+      "success": true,
+      "row_count": 5530
+    },
+    {
+      "symbol": "APS",
+      "success": true,
+      "row_count": 172
+    },
+    {
+      "symbol": "AJANTPHARM",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "ALKYLAMINE",
+      "success": true,
+      "row_count": 4153
+    },
+    {
+      "symbol": "ARE&M",
+      "success": true,
+      "row_count": 232
+    },
+    {
+      "symbol": "APTUS",
+      "success": true,
+      "row_count": 770
+    },
+    {
+      "symbol": "ANANTRAJ",
+      "success": true,
+      "row_count": 4442
+    },
+    {
+      "symbol": "APLAPOLLO",
+      "success": true,
+      "row_count": 3158
+    },
+    {
+      "symbol": "APLLTD",
+      "success": true,
+      "row_count": 3213
+    },
+    {
+      "symbol": "AMBUJACEM",
+      "success": true,
+      "row_count": 5528
+    },
+    {
+      "symbol": "APARINDS",
+      "success": true,
+      "row_count": 4999
+    },
+    {
+      "symbol": "ALOKINDS",
+      "success": true,
+      "row_count": 7221
+    },
+    {
+      "symbol": "ASTERDM",
+      "success": true,
+      "row_count": 1630
+    },
+    {
+      "symbol": "APOLLOHOSP",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "ATGL",
+      "success": true,
+      "row_count": 1460
+    },
+    {
+      "symbol": "AWL",
+      "success": true,
+      "row_count": 655
+    },
+    {
+      "symbol": "APOLLOTYRE",
+      "success": true,
+      "row_count": 5659
+    },
+    {
+      "symbol": "AUBANK",
+      "success": true,
+      "row_count": 1787
+    },
+    {
+      "symbol": "BAJAJHFL",
+      "success": true,
+      "row_count": 14
+    },
+    {
+      "symbol": "ASTRAL",
+      "success": true,
+      "row_count": 4326
+    },
+    {
+      "symbol": "ASAHIINDIA",
+      "success": true,
+      "row_count": 5520
+    },
+    {
+      "symbol": "ASHOKLEY",
+      "success": true,
+      "row_count": 5529
+    },
+    {
+      "symbol": "ASIANPAINT",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "ASTRAZEN",
+      "success": true,
+      "row_count": 5530
+    },
+    {
+      "symbol": "ATUL",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "BANDHANBNK",
+      "success": true,
+      "row_count": 1610
+    },
+    {
+      "symbol": "BAJAJ-AUTO",
+      "success": true,
+      "row_count": 5498
+    },
+    {
+      "symbol": "AUROPHARMA",
+      "success": true,
+      "row_count": 7213
+    },
+    {
+      "symbol": "BAJAJFINSV",
+      "success": true,
+      "row_count": 5496
+    },
+    {
+      "symbol": "BAJAJHLDNG",
+      "success": true,
+      "row_count": 5496
+    },
+    {
+      "symbol": "BALKRISIND",
+      "success": true,
+      "row_count": 4608
+    },
+    {
+      "symbol": "AXISBANK",
+      "success": true,
+      "row_count": 6463
+    },
+    {
+      "symbol": "BAJFINANCE",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "BDL",
+      "success": true,
+      "row_count": 1612
+    },
+    {
+      "symbol": "BALRAMCHIN",
+      "success": true,
+      "row_count": 5530
+    },
+    {
+      "symbol": "BANKBARODA",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "BHARTIHEXA",
+      "success": true,
+      "row_count": 119
+    },
+    {
+      "symbol": "BANKINDIA",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "BASF",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "BIKAJI",
+      "success": true,
+      "row_count": 465
+    },
+    {
+      "symbol": "BAYERCROP",
+      "success": true,
+      "row_count": 3638
+    },
+    {
+      "symbol": "BATAINDIA",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "BEL",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "BEML",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "BLS",
+      "success": true,
+      "row_count": 2051
+    },
+    {
+      "symbol": "BBTC",
+      "success": true,
+      "row_count": 5526
+    },
+    {
+      "symbol": "BERGEPAINT",
+      "success": true,
+      "row_count": 5517
+    },
+    {
+      "symbol": "BHARATFORG",
+      "success": true,
+      "row_count": 7222
+    },
+    {
+      "symbol": "BHARTIARTL",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "CAMPUS",
+      "success": true,
+      "row_count": 596
+    },
+    {
+      "symbol": "BSE",
+      "success": true,
+      "row_count": 1893
+    },
+    {
+      "symbol": "BIOCON",
+      "success": true,
+      "row_count": 5066
+    },
+    {
+      "symbol": "CAMS",
+      "success": true,
+      "row_count": 990
+    },
+    {
+      "symbol": "BLUEDART",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "BOSCHLTD",
+      "success": true,
+      "row_count": 5529
+    },
+    {
+      "symbol": "BHEL",
+      "success": true,
+      "row_count": 7222
+    },
+    {
+      "symbol": "BLUESTARCO",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "BRIGADE",
+      "success": true,
+      "row_count": 4131
+    },
+    {
+      "symbol": "BSOFT",
+      "success": true,
+      "row_count": 5531
+    },
+    {
+      "symbol": "CAPLIPOINT",
+      "success": true,
+      "row_count": 2535
+    },
+    {
+      "symbol": "BRITANNIA",
+      "success": true,
+      "row_count": 7224
+    },
+    {
+      "symbol": "BPCL",
+      "success": true,
+      "row_count": 7221
+    },
+    {
+      "symbol": "CDSL",
+      "success": true,
+      "row_count": 1794
+    },
+    {
+      "symbol": "CANBK",
+      "success": true,
+      "row_count": 5402
+    },
+    {
+      "symbol": "CANFINHOME",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "CENTRALBK",
+      "success": true,
+      "row_count": 4221
+    },
+    {
+      "symbol": "CARBORUNIV",
+      "success": true,
+      "row_count": 5529
+    },
+    {
+      "symbol": "CASTROLIND",
+      "success": true,
+      "row_count": 4555
+    },
+    {
+      "symbol": "CEATLTD",
+      "success": true,
+      "row_count": 4107
+    },
+    {
+      "symbol": "CHALET",
+      "success": true,
+      "row_count": 1395
+    },
+    {
+      "symbol": "CCL",
+      "success": true,
+      "row_count": 5024
+    },
+    {
+      "symbol": "CGCL",
+      "success": true,
+      "row_count": 3434
+    },
+    {
+      "symbol": "CLEAN",
+      "success": true,
+      "row_count": 794
+    },
+    {
+      "symbol": "CERA",
+      "success": true,
+      "row_count": 4169
+    },
+    {
+      "symbol": "COHANCE",
+      "success": true,
+      "row_count": 0
+    },
+    {
+      "symbol": "CENTURYPLY",
+      "success": true,
+      "row_count": 4571
+    },
+    {
+      "symbol": "CONCORDBIO",
+      "success": true,
+      "row_count": 277
+    },
+    {
+      "symbol": "CGPOWER",
+      "success": true,
+      "row_count": 5530
+    },
+    {
+      "symbol": "COCHINSHIP",
+      "success": true,
+      "row_count": 1764
+    },
+    {
+      "symbol": "CESC",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "COALINDIA",
+      "success": true,
+      "row_count": 3430
+    },
+    {
+      "symbol": "CHAMBLFERT",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "CRAFTSMAN",
+      "success": true,
+      "row_count": 871
+    },
+    {
+      "symbol": "CHENNPETRO",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "CHOLAHLDNG",
+      "success": true,
+      "row_count": 5522
+    },
+    {
+      "symbol": "CHOLAFIN",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "CREDITACC",
+      "success": true,
+      "row_count": 1508
+    },
+    {
+      "symbol": "COFORGE",
+      "success": true,
+      "row_count": 4965
+    },
+    {
+      "symbol": "CROMPTON",
+      "success": true,
+      "row_count": 2074
+    },
+    {
+      "symbol": "CIPLA",
+      "success": true,
+      "row_count": 7224
+    },
+    {
+      "symbol": "DALBHARAT",
+      "success": true,
+      "row_count": 1428
+    },
+    {
+      "symbol": "COLPAL",
+      "success": true,
+      "row_count": 5530
+    },
+    {
+      "symbol": "DATAPATTNS",
+      "success": true,
+      "row_count": 686
+    },
+    {
+      "symbol": "CONCOR",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "COROMANDEL",
+      "success": true,
+      "row_count": 5168
+    },
+    {
+      "symbol": "DELHIVERY",
+      "success": true,
+      "row_count": 585
+    },
+    {
+      "symbol": "DEVYANI",
+      "success": true,
+      "row_count": 775
+    },
+    {
+      "symbol": "CRISIL",
+      "success": true,
+      "row_count": 5530
+    },
+    {
+      "symbol": "CUB",
+      "success": true,
+      "row_count": 5530
+    },
+    {
+      "symbol": "CYIENT",
+      "success": true,
+      "row_count": 4484
+    },
+    {
+      "symbol": "DBREALTY",
+      "success": true,
+      "row_count": 3606
+    },
+    {
+      "symbol": "CUMMINSIND",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "DOMS",
+      "success": true,
+      "row_count": 194
+    },
+    {
+      "symbol": "DIXON",
+      "success": true,
+      "row_count": 1740
+    },
+    {
+      "symbol": "DABUR",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "DEEPAKNTR",
+      "success": true,
+      "row_count": 3456
+    },
+    {
+      "symbol": "DMART",
+      "success": true,
+      "row_count": 1863
+    },
+    {
+      "symbol": "DCMSHRIRAM",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "EMCURE",
+      "success": true,
+      "row_count": 57
+    },
+    {
+      "symbol": "DLF",
+      "success": true,
+      "row_count": 4253
+    },
+    {
+      "symbol": "DIVISLAB",
+      "success": true,
+      "row_count": 5348
+    },
+    {
+      "symbol": "DEEPAKFERT",
+      "success": true,
+      "row_count": 7222
+    },
+    {
+      "symbol": "ECLERX",
+      "success": true,
+      "row_count": 4123
+    },
+    {
+      "symbol": "ENDURANCE",
+      "success": true,
+      "row_count": 1967
+    },
+    {
+      "symbol": "ETERNAL",
+      "success": true,
+      "row_count": 0
+    },
+    {
+      "symbol": "ELECON",
+      "success": true,
+      "row_count": 4440
+    },
+    {
+      "symbol": "ERIS",
+      "success": true,
+      "row_count": 1794
+    },
+    {
+      "symbol": "ELGIEQUIP",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "EIDPARRY",
+      "success": true,
+      "row_count": 5530
+    },
+    {
+      "symbol": "EMAMILTD",
+      "success": true,
+      "row_count": 4480
+    },
+    {
+      "symbol": "DRREDDY",
+      "success": true,
+      "row_count": 7222
+    },
+    {
+      "symbol": "FIRSTCRY",
+      "success": true,
+      "row_count": 37
+    },
+    {
+      "symbol": "EICHERMOT",
+      "success": true,
+      "row_count": 7222
+    },
+    {
+      "symbol": "FIVESTAR",
+      "success": true,
+      "row_count": 462
+    },
+    {
+      "symbol": "EIHOTEL",
+      "success": true,
+      "row_count": 7225
+    },
+    {
+      "symbol": "FLUOROCHEM",
+      "success": true,
+      "row_count": 1231
+    },
+    {
+      "symbol": "ENGINERSIN",
+      "success": true,
+      "row_count": 6664
+    },
+    {
+      "symbol": "EXIDEIND",
+      "success": true,
+      "row_count": 5530
+    },
+    {
+      "symbol": "GICRE",
+      "success": true,
+      "row_count": 1715
+    },
+    {
+      "symbol": "FINCABLES",
+      "success": true,
+      "row_count": 5530
+    },
+    {
+      "symbol": "ESCORTS",
+      "success": true,
+      "row_count": 7222
+    },
+    {
+      "symbol": "FSL",
+      "success": true,
+      "row_count": 3830
+    },
+    {
+      "symbol": "FACT",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "GLAND",
+      "success": true,
+      "row_count": 956
+    },
+    {
+      "symbol": "FORTIS",
+      "success": true,
+      "row_count": 4294
+    },
+    {
+      "symbol": "FINPIPE",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "GODIGIT",
+      "success": true,
+      "row_count": 93
+    },
+    {
+      "symbol": "FEDERALBNK",
+      "success": true,
+      "row_count": 6918
+    },
+    {
+      "symbol": "GESHIP",
+      "success": true,
+      "row_count": 5530
+    },
+    {
+      "symbol": "GAIL",
+      "success": true,
+      "row_count": 6575
+    },
+    {
+      "symbol": "GODREJAGRO",
+      "success": true,
+      "row_count": 1721
+    },
+    {
+      "symbol": "GILLETTE",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "GMRAIRPORT",
+      "success": true,
+      "row_count": 4469
+    },
+    {
+      "symbol": "GLENMARK",
+      "success": true,
+      "row_count": 5530
+    },
+    {
+      "symbol": "GMDCLTD",
+      "success": true,
+      "row_count": 5530
+    },
+    {
+      "symbol": "GODREJPROP",
+      "success": true,
+      "row_count": 3641
+    },
+    {
+      "symbol": "GLAXO",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "GNFC",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "GPPL",
+      "success": true,
+      "row_count": 3469
+    },
+    {
+      "symbol": "GODFRYPHLP",
+      "success": true,
+      "row_count": 6437
+    },
+    {
+      "symbol": "GODREJCP",
+      "success": true,
+      "row_count": 5530
+    },
+    {
+      "symbol": "GPIL",
+      "success": true,
+      "row_count": 4551
+    },
+    {
+      "symbol": "GODREJIND",
+      "success": true,
+      "row_count": 5530
+    },
+    {
+      "symbol": "HBLENGINE",
+      "success": true,
+      "row_count": 0
+    },
+    {
+      "symbol": "HAPPSTMNDS",
+      "success": true,
+      "row_count": 1001
+    },
+    {
+      "symbol": "HAL",
+      "success": true,
+      "row_count": 1608
+    },
+    {
+      "symbol": "GUJGASLTD",
+      "success": true,
+      "row_count": 2232
+    },
+    {
+      "symbol": "GRAVITA",
+      "success": true,
+      "row_count": 3423
+    },
+    {
+      "symbol": "GRSE",
+      "success": true,
+      "row_count": 1468
+    },
+    {
+      "symbol": "GRANULES",
+      "success": true,
+      "row_count": 4759
+    },
+    {
+      "symbol": "GRAPHITE",
+      "success": true,
+      "row_count": 5528
+    },
+    {
+      "symbol": "HDFCAMC",
+      "success": true,
+      "row_count": 1519
+    },
+    {
+      "symbol": "GSPL",
+      "success": true,
+      "row_count": 4595
+    },
+    {
+      "symbol": "GVT&D",
+      "success": true,
+      "row_count": 3972
+    },
+    {
+      "symbol": "GRASIM",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "HDFCLIFE",
+      "success": true,
+      "row_count": 1698
+    },
+    {
+      "symbol": "HAVELLS",
+      "success": true,
+      "row_count": 5528
+    },
+    {
+      "symbol": "HCLTECH",
+      "success": true,
+      "row_count": 5501
+    },
+    {
+      "symbol": "HOMEFIRST",
+      "success": true,
+      "row_count": 906
+    },
+    {
+      "symbol": "HONASA",
+      "success": true,
+      "row_count": 223
+    },
+    {
+      "symbol": "HEG",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "HINDCOPPER",
+      "success": true,
+      "row_count": 3638
+    },
+    {
+      "symbol": "HEROMOTOCO",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "HYUNDAI",
+      "success": true,
+      "row_count": 0
+    },
+    {
+      "symbol": "HEIDELBERG",
+      "success": true,
+      "row_count": 7222
+    },
+    {
+      "symbol": "HFCL",
+      "success": true,
+      "row_count": 5489
+    },
+    {
+      "symbol": "HINDZINC",
+      "success": true,
+      "row_count": 4605
+    },
+    {
+      "symbol": "HDFCBANK",
+      "success": true,
+      "row_count": 7225
+    },
+    {
+      "symbol": "ICICIGI",
+      "success": true,
+      "row_count": 1733
+    },
+    {
+      "symbol": "HUDCO",
+      "success": true,
+      "row_count": 1823
+    },
+    {
+      "symbol": "ICICIPRULI",
+      "success": true,
+      "row_count": 1979
+    },
+    {
+      "symbol": "HINDALCO",
+      "success": true,
+      "row_count": 7225
+    },
+    {
+      "symbol": "HINDPETRO",
+      "success": true,
+      "row_count": 7221
+    },
+    {
+      "symbol": "IGIL",
+      "success": true,
+      "row_count": 0
+    },
+    {
+      "symbol": "HSCL",
+      "success": true,
+      "row_count": 4338
+    },
+    {
+      "symbol": "HINDUNILVR",
+      "success": true,
+      "row_count": 7225
+    },
+    {
+      "symbol": "IEX",
+      "success": true,
+      "row_count": 1717
+    },
+    {
+      "symbol": "IDFCFIRSTB",
+      "success": true,
+      "row_count": 2198
+    },
+    {
+      "symbol": "IKS",
+      "success": true,
+      "row_count": 0
+    },
+    {
+      "symbol": "INDGN",
+      "success": true,
+      "row_count": 100
+    },
+    {
+      "symbol": "HONAUT",
+      "success": true,
+      "row_count": 5530
+    },
+    {
+      "symbol": "INDIAMART",
+      "success": true,
+      "row_count": 1299
+    },
+    {
+      "symbol": "ICICIBANK",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "IDEA",
+      "success": true,
+      "row_count": 4333
+    },
+    {
+      "symbol": "INOXINDIA",
+      "success": true,
+      "row_count": 193
+    },
+    {
+      "symbol": "INDIGO",
+      "success": true,
+      "row_count": 2196
+    },
+    {
+      "symbol": "IGL",
+      "success": true,
+      "row_count": 5139
+    },
+    {
+      "symbol": "IIFL",
+      "success": true,
+      "row_count": 4783
+    },
+    {
+      "symbol": "IDBI",
+      "success": true,
+      "row_count": 7099
+    },
+    {
+      "symbol": "IFCI",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "INDIANB",
+      "success": true,
+      "row_count": 4339
+    },
+    {
+      "symbol": "INDUSTOWER",
+      "success": true,
+      "row_count": 2902
+    },
+    {
+      "symbol": "INDHOTEL",
+      "success": true,
+      "row_count": 5530
+    },
+    {
+      "symbol": "INOXWIND",
+      "success": true,
+      "row_count": 2343
+    },
+    {
+      "symbol": "INTELLECT",
+      "success": true,
+      "row_count": 2417
+    },
+    {
+      "symbol": "IREDA",
+      "success": true,
+      "row_count": 209
+    },
+    {
+      "symbol": "IRCON",
+      "success": true,
+      "row_count": 1484
+    },
+    {
+      "symbol": "INDUSINDBK",
+      "success": true,
+      "row_count": 5528
+    },
+    {
+      "symbol": "INDIACEM",
+      "success": true,
+      "row_count": 7221
+    },
+    {
+      "symbol": "IRCTC",
+      "success": true,
+      "row_count": 1233
+    },
+    {
+      "symbol": "IT",
+      "success": true,
+      "row_count": 136
+    },
+    {
+      "symbol": "IRFC",
+      "success": true,
+      "row_count": 909
+    },
+    {
+      "symbol": "IRB",
+      "success": true,
+      "row_count": 4091
+    },
+    {
+      "symbol": "INFY",
+      "success": true,
+      "row_count": 7225
+    },
+    {
+      "symbol": "IOB",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "JIOFIN",
+      "success": true,
+      "row_count": 272
+    },
+    {
+      "symbol": "ITI",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "IOC",
+      "success": true,
+      "row_count": 7147
+    },
+    {
+      "symbol": "IPCALAB",
+      "success": true,
+      "row_count": 7222
+    },
+    {
+      "symbol": "J&KBANK",
+      "success": true,
+      "row_count": 4915
+    },
+    {
+      "symbol": "JBMA",
+      "success": true,
+      "row_count": 4886
+    },
+    {
+      "symbol": "JSWINFRA",
+      "success": true,
+      "row_count": 243
+    },
+    {
+      "symbol": "JBCHEPHARM",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "JINDALSAW",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "ITC",
+      "success": true,
+      "row_count": 7222
+    },
+    {
+      "symbol": "JKCEMENT",
+      "success": true,
+      "row_count": 4577
+    },
+    {
+      "symbol": "JINDALSTEL",
+      "success": true,
+      "row_count": 6253
+    },
+    {
+      "symbol": "JKTYRE",
+      "success": true,
+      "row_count": 4995
+    },
+    {
+      "symbol": "JMFINANCIL",
+      "success": true,
+      "row_count": 4434
+    },
+    {
+      "symbol": "JUBLINGREA",
+      "success": true,
+      "row_count": 875
+    },
+    {
+      "symbol": "JYOTICNC",
+      "success": true,
+      "row_count": 176
+    },
+    {
+      "symbol": "JPPOWER",
+      "success": true,
+      "row_count": 4804
+    },
+    {
+      "symbol": "KALYANKJIL",
+      "success": true,
+      "row_count": 870
+    },
+    {
+      "symbol": "JSWHL",
+      "success": true,
+      "row_count": 4758
+    },
+    {
+      "symbol": "JUBLFOOD",
+      "success": true,
+      "row_count": 3617
+    },
+    {
+      "symbol": "JUSTDIAL",
+      "success": true,
+      "row_count": 2794
+    },
+    {
+      "symbol": "JSWENERGY",
+      "success": true,
+      "row_count": 3641
+    },
+    {
+      "symbol": "JSL",
+      "success": true,
+      "row_count": 5168
+    },
+    {
+      "symbol": "KAYNES",
+      "success": true,
+      "row_count": 461
+    },
+    {
+      "symbol": "KFINTECH",
+      "success": true,
+      "row_count": 434
+    },
+    {
+      "symbol": "JSWSTEEL",
+      "success": true,
+      "row_count": 5298
+    },
+    {
+      "symbol": "JWL",
+      "success": true,
+      "row_count": 3443
+    },
+    {
+      "symbol": "JYOTHYLAB",
+      "success": true,
+      "row_count": 4137
+    },
+    {
+      "symbol": "KIMS",
+      "success": true,
+      "row_count": 809
+    },
+    {
+      "symbol": "JUBLPHARMA",
+      "success": true,
+      "row_count": 5530
+    },
+    {
+      "symbol": "KPIL",
+      "success": true,
+      "row_count": 293
+    },
+    {
+      "symbol": "KPITTECH",
+      "success": true,
+      "row_count": 1349
+    },
+    {
+      "symbol": "KAJARIACER",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "LATENTVIEW",
+      "success": true,
+      "row_count": 709
+    },
+    {
+      "symbol": "KEI",
+      "success": true,
+      "row_count": 4571
+    },
+    {
+      "symbol": "KANSAINER",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "KEC",
+      "success": true,
+      "row_count": 5496
+    },
+    {
+      "symbol": "LALPATHLAB",
+      "success": true,
+      "row_count": 2168
+    },
+    {
+      "symbol": "KIRLOSBROS",
+      "success": true,
+      "row_count": 4547
+    },
+    {
+      "symbol": "LICI",
+      "success": true,
+      "row_count": 590
+    },
+    {
+      "symbol": "KNRCON",
+      "success": true,
+      "row_count": 4096
+    },
+    {
+      "symbol": "LAURUSLABS",
+      "success": true,
+      "row_count": 1926
+    },
+    {
+      "symbol": "LLOYDSME",
+      "success": true,
+      "row_count": 300
+    },
+    {
+      "symbol": "LTFOODS",
+      "success": true,
+      "row_count": 225
+    },
+    {
+      "symbol": "LEMONTREE",
+      "success": true,
+      "row_count": 1603
+    },
+    {
+      "symbol": "KPRMILL",
+      "success": true,
+      "row_count": 4216
+    },
+    {
+      "symbol": "LODHA",
+      "success": true,
+      "row_count": 857
+    },
+    {
+      "symbol": "KIRLOSENG",
+      "success": true,
+      "row_count": 5465
+    },
+    {
+      "symbol": "KARURVYSYA",
+      "success": true,
+      "row_count": 7222
+    },
+    {
+      "symbol": "KOTAKBANK",
+      "success": true,
+      "row_count": 5789
+    },
+    {
+      "symbol": "LTTS",
+      "success": true,
+      "row_count": 1983
+    },
+    {
+      "symbol": "LTIM",
+      "success": true,
+      "row_count": 2026
+    },
+    {
+      "symbol": "MANKIND",
+      "success": true,
+      "row_count": 348
+    },
+    {
+      "symbol": "LICHSGFIN",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "MANYAVAR",
+      "success": true,
+      "row_count": 649
+    },
+    {
+      "symbol": "LTF",
+      "success": true,
+      "row_count": 3237
+    },
+    {
+      "symbol": "MAPMYINDIA",
+      "success": true,
+      "row_count": 689
+    },
+    {
+      "symbol": "M&MFIN",
+      "success": true,
+      "row_count": 4575
+    },
+    {
+      "symbol": "LINDEINDIA",
+      "success": true,
+      "row_count": 6074
+    },
+    {
+      "symbol": "MANAPPURAM",
+      "success": true,
+      "row_count": 3520
+    },
+    {
+      "symbol": "LUPIN",
+      "success": true,
+      "row_count": 5738
+    },
+    {
+      "symbol": "MAXHEALTH",
+      "success": true,
+      "row_count": 1020
+    },
+    {
+      "symbol": "MAHABANK",
+      "success": true,
+      "row_count": 5063
+    },
+    {
+      "symbol": "LT",
+      "success": true,
+      "row_count": 5521
+    },
+    {
+      "symbol": "METAL",
+      "success": true,
+      "row_count": 0
+    },
+    {
+      "symbol": "MEDANTA",
+      "success": true,
+      "row_count": 463
+    },
+    {
+      "symbol": "MAZDOCK",
+      "success": true,
+      "row_count": 985
+    },
+    {
+      "symbol": "MAHSEAMLES",
+      "success": true,
+      "row_count": 5530
+    },
+    {
+      "symbol": "M&M",
+      "success": true,
+      "row_count": 7223
+    },
+    {
+      "symbol": "METROPOLIS",
+      "success": true,
+      "row_count": 1352
+    },
+    {
+      "symbol": "MGL",
+      "success": true,
+      "row_count": 2039
+    },
+    {
+      "symbol": "MCX",
+      "success": true,
+      "row_count": 3099
+    },
+    {
+      "symbol": "MARUTI",
+      "success": true,
+      "row_count": 5263
+    },
+    {
+      "symbol": "MINDACORP",
+      "success": true,
+      "row_count": 2995
+    },
+    {
+      "symbol": "MASTEK",
+      "success": true,
+      "row_count": 5530
+    },
+    {
+      "symbol": "MSUMI",
+      "success": true,
+      "row_count": 623
+    },
+    {
+      "symbol": "MMTC",
+      "success": true,
+      "row_count": 3638
+    },
+    {
+      "symbol": "MARICO",
+      "success": true,
+      "row_count": 6818
+    },
+    {
+      "symbol": "MOTILALOFS",
+      "success": true,
+      "row_count": 4206
+    },
+    {
+      "symbol": "NAM-INDIA",
+      "success": true,
+      "row_count": 1707
+    },
+    {
+      "symbol": "MOTHERSON",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "MPHASIS",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "MUTHOOTFIN",
+      "success": true,
+      "row_count": 3307
+    },
+    {
+      "symbol": "MFSL",
+      "success": true,
+      "row_count": 7222
+    },
+    {
+      "symbol": "MRF",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "NETWEB",
+      "success": true,
+      "row_count": 292
+    },
+    {
+      "symbol": "NAUKRI",
+      "success": true,
+      "row_count": 4406
+    },
+    {
+      "symbol": "NBCC",
+      "success": true,
+      "row_count": 3077
+    },
+    {
+      "symbol": "MRPL",
+      "success": true,
+      "row_count": 6902
+    },
+    {
+      "symbol": "NAVINFLUOR",
+      "success": true,
+      "row_count": 4277
+    },
+    {
+      "symbol": "NAVA",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "NIVABUPA",
+      "success": true,
+      "row_count": 0
+    },
+    {
+      "symbol": "NATIONALUM",
+      "success": true,
+      "row_count": 6355
+    },
+    {
+      "symbol": "NEWGEN",
+      "success": true,
+      "row_count": 1649
+    },
+    {
+      "symbol": "NATCOPHARM",
+      "success": true,
+      "row_count": 7223
+    },
+    {
+      "symbol": "NTPCGREEN",
+      "success": true,
+      "row_count": 0
+    },
+    {
+      "symbol": "NSLNISP",
+      "success": true,
+      "row_count": 398
+    },
+    {
+      "symbol": "NUVAMA",
+      "success": true,
+      "row_count": 247
+    },
+    {
+      "symbol": "NH",
+      "success": true,
+      "row_count": 2159
+    },
+    {
+      "symbol": "NIACL",
+      "success": true,
+      "row_count": 1702
+    },
+    {
+      "symbol": "NESTLEIND",
+      "success": true,
+      "row_count": 3836
+    },
+    {
+      "symbol": "NEULANDLAB",
+      "success": true,
+      "row_count": 3937
+    },
+    {
+      "symbol": "NCC",
+      "success": true,
+      "row_count": 5391
+    },
+    {
+      "symbol": "NYKAA",
+      "success": true,
+      "row_count": 717
+    },
+    {
+      "symbol": "OLAELEC",
+      "success": true,
+      "row_count": 39
+    },
+    {
+      "symbol": "NETWORK18",
+      "success": true,
+      "row_count": 4615
+    },
+    {
+      "symbol": "NHPC",
+      "success": true,
+      "row_count": 3722
+    },
+    {
+      "symbol": "NMDC",
+      "success": true,
+      "row_count": 4086
+    },
+    {
+      "symbol": "PAYTM",
+      "success": true,
+      "row_count": 711
+    },
+    {
+      "symbol": "OBEROIRLTY",
+      "success": true,
+      "row_count": 3441
+    },
+    {
+      "symbol": "OIL",
+      "success": true,
+      "row_count": 3703
+    },
+    {
+      "symbol": "NLCINDIA",
+      "success": true,
+      "row_count": 6012
+    },
+    {
+      "symbol": "ORIENTCEM",
+      "success": true,
+      "row_count": 2767
+    },
+    {
+      "symbol": "NTPC",
+      "success": true,
+      "row_count": 4916
+    },
+    {
+      "symbol": "OFSS",
+      "success": true,
+      "row_count": 5529
+    },
+    {
+      "symbol": "PAGEIND",
+      "success": true,
+      "row_count": 4328
+    },
+    {
+      "symbol": "OLECTRA",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "PATANJALI",
+      "success": true,
+      "row_count": 5489
+    },
+    {
+      "symbol": "PERSISTENT",
+      "success": true,
+      "row_count": 3580
+    },
+    {
+      "symbol": "PGEL",
+      "success": true,
+      "row_count": 3209
+    },
+    {
+      "symbol": "PCBL",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "PFC",
+      "success": true,
+      "row_count": 4343
+    },
+    {
+      "symbol": "ONGC",
+      "success": true,
+      "row_count": 7222
+    },
+    {
+      "symbol": "PNBHOUSING",
+      "success": true,
+      "row_count": 1952
+    },
+    {
+      "symbol": "POLICYBZR",
+      "success": true,
+      "row_count": 714
+    },
+    {
+      "symbol": "PETRONET",
+      "success": true,
+      "row_count": 5076
+    },
+    {
+      "symbol": "PFIZER",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "PIIND",
+      "success": true,
+      "row_count": 3279
+    },
+    {
+      "symbol": "POLYCAB",
+      "success": true,
+      "row_count": 1351
+    },
+    {
+      "symbol": "PHOENIXLTD",
+      "success": true,
+      "row_count": 4304
+    },
+    {
+      "symbol": "PPLPHARMA",
+      "success": true,
+      "row_count": 483
+    },
+    {
+      "symbol": "PEL",
+      "success": true,
+      "row_count": 7224
+    },
+    {
+      "symbol": "PNCINFRA",
+      "success": true,
+      "row_count": 2312
+    },
+    {
+      "symbol": "PREMIERENE",
+      "success": true,
+      "row_count": 23
+    },
+    {
+      "symbol": "POWERINDIA",
+      "success": true,
+      "row_count": 1118
+    },
+    {
+      "symbol": "PTCIL",
+      "success": true,
+      "row_count": 325
+    },
+    {
+      "symbol": "PIDILITIND",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "PVRINOX",
+      "success": true,
+      "row_count": 450
+    },
+    {
+      "symbol": "RAYMONDLSL",
+      "success": true,
+      "row_count": 19
+    },
+    {
+      "symbol": "POLYMED",
+      "success": true,
+      "row_count": 3163
+    },
+    {
+      "symbol": "RAINBOW",
+      "success": true,
+      "row_count": 595
+    },
+    {
+      "symbol": "RAILTEL",
+      "success": true,
+      "row_count": 889
+    },
+    {
+      "symbol": "PNB",
+      "success": true,
+      "row_count": 5529
+    },
+    {
+      "symbol": "POONAWALLA",
+      "success": true,
+      "row_count": 5053
+    },
+    {
+      "symbol": "PRESTIGE",
+      "success": true,
+      "row_count": 3436
+    },
+    {
+      "symbol": "POWERGRID",
+      "success": true,
+      "row_count": 4189
+    },
+    {
+      "symbol": "RBLBANK",
+      "success": true,
+      "row_count": 1998
+    },
+    {
+      "symbol": "PRAJIND",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "RADICO",
+      "success": true,
+      "row_count": 5278
+    },
+    {
+      "symbol": "RAJESHEXPO",
+      "success": true,
+      "row_count": 5493
+    },
+    {
+      "symbol": "RITES",
+      "success": true,
+      "row_count": 1543
+    },
+    {
+      "symbol": "RAMCOCEM",
+      "success": true,
+      "row_count": 5528
+    },
+    {
+      "symbol": "RECLTD",
+      "success": true,
+      "row_count": 4080
+    },
+    {
+      "symbol": "RRKABEL",
+      "success": true,
+      "row_count": 252
+    },
+    {
+      "symbol": "RHIM",
+      "success": true,
+      "row_count": 3098
+    },
+    {
+      "symbol": "RCF",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "REDINGTON",
+      "success": true,
+      "row_count": 4348
+    },
+    {
+      "symbol": "ROUTE",
+      "success": true,
+      "row_count": 999
+    },
+    {
+      "symbol": "SAGILITY",
+      "success": true,
+      "row_count": 0
+    },
+    {
+      "symbol": "SAILIFE",
+      "success": true,
+      "row_count": 0
+    },
+    {
+      "symbol": "RENUKA",
+      "success": true,
+      "row_count": 4667
+    },
+    {
+      "symbol": "RAYMOND",
+      "success": true,
+      "row_count": 7222
+    },
+    {
+      "symbol": "SAPPHIRE",
+      "success": true,
+      "row_count": 711
+    },
+    {
+      "symbol": "RVNL",
+      "success": true,
+      "row_count": 1354
+    },
+    {
+      "symbol": "SBFC",
+      "success": true,
+      "row_count": 275
+    },
+    {
+      "symbol": "RTNINDIA",
+      "success": true,
+      "row_count": 3001
+    },
+    {
+      "symbol": "RELIANCE",
+      "success": true,
+      "row_count": 7222
+    },
+    {
+      "symbol": "SBICARD",
+      "success": true,
+      "row_count": 1128
+    },
+    {
+      "symbol": "RPOWER",
+      "success": true,
+      "row_count": 4101
+    },
+    {
+      "symbol": "RKFORGE",
+      "success": true,
+      "row_count": 5047
+    },
+    {
+      "symbol": "SAMMAANCAP",
+      "success": true,
+      "row_count": 2760
+    },
+    {
+      "symbol": "SBILIFE",
+      "success": true,
+      "row_count": 1730
+    },
+    {
+      "symbol": "SARDAEN",
+      "success": true,
+      "row_count": 3661
+    },
+    {
+      "symbol": "ROLTA",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "SHYAMMETL",
+      "success": true,
+      "row_count": 811
+    },
+    {
+      "symbol": "SIGNATURE",
+      "success": true,
+      "row_count": 250
+    },
+    {
+      "symbol": "SCHNEIDER",
+      "success": true,
+      "row_count": 3092
+    },
+    {
+      "symbol": "SAREGAMA",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "SAIL",
+      "success": true,
+      "row_count": 7225
+    },
+    {
+      "symbol": "SCI",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "SONACOMS",
+      "success": true,
+      "row_count": 811
+    },
+    {
+      "symbol": "SCHAEFFLER",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "SJVN",
+      "success": true,
+      "row_count": 3549
+    },
+    {
+      "symbol": "SHREECEM",
+      "success": true,
+      "row_count": 5787
+    },
+    {
+      "symbol": "SHRIRAMFIN",
+      "success": true,
+      "row_count": 5530
+    },
+    {
+      "symbol": "SBIN",
+      "success": true,
+      "row_count": 7223
+    },
+    {
+      "symbol": "STARHEALTH",
+      "success": true,
+      "row_count": 696
+    },
+    {
+      "symbol": "SUMICHEM",
+      "success": true,
+      "row_count": 1161
+    },
+    {
+      "symbol": "SOBHA",
+      "success": true,
+      "row_count": 4385
+    },
+    {
+      "symbol": "SIEMENS",
+      "success": true,
+      "row_count": 6440
+    },
+    {
+      "symbol": "SWIGGY",
+      "success": true,
+      "row_count": 0
+    },
+    {
+      "symbol": "SOLARINDS",
+      "success": true,
+      "row_count": 4564
+    },
+    {
+      "symbol": "SKFINDIA",
+      "success": true,
+      "row_count": 5497
+    },
+    {
+      "symbol": "SONATSOFTW",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "SWANENERGY",
+      "success": true,
+      "row_count": 3045
+    },
+    {
+      "symbol": "SWSOLAR",
+      "success": true,
+      "row_count": 1268
+    },
+    {
+      "symbol": "SYRMA",
+      "success": true,
+      "row_count": 519
+    },
+    {
+      "symbol": "SRF",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "SUNDARMFIN",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "SUNDRMFAST",
+      "success": true,
+      "row_count": 5529
+    },
+    {
+      "symbol": "SUNTV",
+      "success": true,
+      "row_count": 4552
+    },
+    {
+      "symbol": "SYNGENE",
+      "success": true,
+      "row_count": 2257
+    },
+    {
+      "symbol": "SUZLON",
+      "success": true,
+      "row_count": 4675
+    },
+    {
+      "symbol": "SUPREMEIND",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "SUNPHARMA",
+      "success": true,
+      "row_count": 7225
+    },
+    {
+      "symbol": "TATATECH",
+      "success": true,
+      "row_count": 204
+    },
+    {
+      "symbol": "TARIL",
+      "success": true,
+      "row_count": 2791
+    },
+    {
+      "symbol": "TBOTEK",
+      "success": true,
+      "row_count": 98
+    },
+    {
+      "symbol": "TANLA",
+      "success": true,
+      "row_count": 4375
+    },
+    {
+      "symbol": "TECH",
+      "success": true,
+      "row_count": 700
+    },
+    {
+      "symbol": "TATACOMM",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "TATAELXSI",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "TATACHEM",
+      "success": true,
+      "row_count": 7225
+    },
+    {
+      "symbol": "TATACONSUM",
+      "success": true,
+      "row_count": 7222
+    },
+    {
+      "symbol": "TEJASNET",
+      "success": true,
+      "row_count": 1797
+    },
+    {
+      "symbol": "TECHM",
+      "success": true,
+      "row_count": 4464
+    },
+    {
+      "symbol": "TECHNOE",
+      "success": true,
+      "row_count": 4179
+    },
+    {
+      "symbol": "TATAINVEST",
+      "success": true,
+      "row_count": 7174
+    },
+    {
+      "symbol": "TCS",
+      "success": true,
+      "row_count": 5245
+    },
+    {
+      "symbol": "TIINDIA",
+      "success": true,
+      "row_count": 1709
+    },
+    {
+      "symbol": "TATAPOWER",
+      "success": true,
+      "row_count": 7222
+    },
+    {
+      "symbol": "TATAMOTORS",
+      "success": true,
+      "row_count": 8528
+    },
+    {
+      "symbol": "TATASTEEL",
+      "success": true,
+      "row_count": 7225
+    },
+    {
+      "symbol": "THERMAX",
+      "success": true,
+      "row_count": 5530
+    },
+    {
+      "symbol": "TI",
+      "success": true,
+      "row_count": 3508
+    },
+    {
+      "symbol": "TITAGARH",
+      "success": true,
+      "row_count": 4056
+    },
+    {
+      "symbol": "TIMKEN",
+      "success": true,
+      "row_count": 4554
+    },
+    {
+      "symbol": "TRITURBINE",
+      "success": true,
+      "row_count": 3188
+    },
+    {
+      "symbol": "TORNTPOWER",
+      "success": true,
+      "row_count": 4401
+    },
+    {
+      "symbol": "UNITDSPR",
+      "success": true,
+      "row_count": 85
+    },
+    {
+      "symbol": "TORNTPHARM",
+      "success": true,
+      "row_count": 5530
+    },
+    {
+      "symbol": "TRIVENI",
+      "success": true,
+      "row_count": 4639
+    },
+    {
+      "symbol": "TRENT",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "TITAN",
+      "success": true,
+      "row_count": 7225
+    },
+    {
+      "symbol": "TRIDENT",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "TTML",
+      "success": true,
+      "row_count": 5967
+    },
+    {
+      "symbol": "UTIAMC",
+      "success": true,
+      "row_count": 984
+    },
+    {
+      "symbol": "UBL",
+      "success": true,
+      "row_count": 3988
+    },
+    {
+      "symbol": "VMM",
+      "success": true,
+      "row_count": 0
+    },
+    {
+      "symbol": "VIJAYA",
+      "success": true,
+      "row_count": 756
+    },
+    {
+      "symbol": "UCOBANK",
+      "success": true,
+      "row_count": 5195
+    },
+    {
+      "symbol": "VBL",
+      "success": true,
+      "row_count": 1954
+    },
+    {
+      "symbol": "VR",
+      "success": true,
+      "row_count": 137
+    },
+    {
+      "symbol": "TVSMOTOR",
+      "success": true,
+      "row_count": 6028
+    },
+    {
+      "symbol": "WAAREEENER",
+      "success": true,
+      "row_count": 0
+    },
+    {
+      "symbol": "UNOMINDA",
+      "success": true,
+      "row_count": 4357
+    },
+    {
+      "symbol": "UNIONBANK",
+      "success": true,
+      "row_count": 5468
+    },
+    {
+      "symbol": "ULTRACEMCO",
+      "success": true,
+      "row_count": 5497
+    },
+    {
+      "symbol": "WESTLIFE",
+      "success": true,
+      "row_count": 1269
+    },
+    {
+      "symbol": "UPL",
+      "success": true,
+      "row_count": 5506
+    },
+    {
+      "symbol": "USHAMART",
+      "success": true,
+      "row_count": 5659
+    },
+    {
+      "symbol": "VGUARD",
+      "success": true,
+      "row_count": 4079
+    },
+    {
+      "symbol": "VEDL",
+      "success": true,
+      "row_count": 7028
+    },
+    {
+      "symbol": "VOLTAS",
+      "success": true,
+      "row_count": 5530
+    },
+    {
+      "symbol": "WHIRLPOOL",
+      "success": true,
+      "row_count": 3909
+    },
+    {
+      "symbol": "VTL",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "ZENTEC",
+      "success": true,
+      "row_count": 2349
+    },
+    {
+      "symbol": "WELSPUNLIV",
+      "success": true,
+      "row_count": 5155
+    },
+    {
+      "symbol": "WELCORP",
+      "success": true,
+      "row_count": 5880
+    },
+    {
+      "symbol": "WOCKPHARMA",
+      "success": true,
+      "row_count": 5529
+    },
+    {
+      "symbol": "YESBANK",
+      "success": true,
+      "row_count": 4743
+    },
+    {
+      "symbol": "ZENSARTECH",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "WIPRO",
+      "success": true,
+      "row_count": 7225
+    },
+    {
+      "symbol": "ZEEL",
+      "success": true,
+      "row_count": 5527
+    },
+    {
+      "symbol": "ZFCVINDIA",
+      "success": true,
+      "row_count": 5471
+    },
+    {
+      "symbol": "ZYDUSLIFE",
+      "success": true,
+      "row_count": 6097
+    }
+  ]
+}

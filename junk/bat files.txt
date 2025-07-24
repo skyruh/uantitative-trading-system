@@ -1,0 +1,17 @@
+Created setup_env.bat to set up a virtual environment and install dependencies
+Created batch files for running the system in different modes:
+run_setup.bat - Initialize and validate system configuration
+run_collect.bat - Fetch historical market data
+run_train.bat - Train LSTM and DQN models
+run_backtest.bat - Run historical performance evaluation
+run_complete.bat - Run the entire pipeline
+run_status.bat - Display current system status
+run_test_setup.bat - Run system setup verification
+Created clean_global_packages.bat to uninstall packages from the global environment
+Updated the README.md with instructions for using the virtual environment and batch files
+To use this setup:
+
+First, run clean_global_packages.bat to remove the packages from your global Python environment (be careful as this might affect other projects)
+Run setup_env.bat to create a virtual environment and install all dependencies
+Use the appropriate batch file to run the system in the desired mode
+This approach isolates your project dependencies in a virtual environment, which helps prevent conflicts with other Python projects and ensures consistent behavior across different environments.

@@ -1,0 +1,29 @@
+{
+  "shape": [
+    5,
+    5
+  ],
+  "columns": [
+    [
+      "Close",
+      "RELIANCE.NS"
+    ],
+    [
+      "High",
+      "RELIANCE.NS"
+    ],
+    [
+      "Low",
+      "RELIANCE.NS"
+    ],
+    [
+      "Open",
+      "RELIANCE.NS"
+    ],
+    [
+      "Volume",
+      "RELIANCE.NS"
+    ]
+  ],
+  "dtypes": {
+    

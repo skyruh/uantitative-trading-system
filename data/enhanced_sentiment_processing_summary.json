@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-07-23T16:16:36.417846",
+  "total_symbols": 1,
+  "success_count": 1,
+  "failed_count": 0,
+  "date_range": "2025-04-24 to 2025-07-23",
+  "results": [
+    {
+      "symbol": "RELIANCE",
+      "success": true
+    }
+  ]
+}
