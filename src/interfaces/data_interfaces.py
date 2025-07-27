@@ -80,6 +80,6 @@ class IFeatureEngineer(ABC):
         pass
     
     @abstractmethod
-    def build_features(self, price_data: pd.DataFrame, sentiment_data: List[float]) -> pd.DataFrame:
+    def build_features(self, price_data: pd.DataFrame) -> pd.DataFrame:
         """Combine all features for model training."""
         pass

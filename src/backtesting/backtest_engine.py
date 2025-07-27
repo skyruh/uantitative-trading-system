@@ -246,6 +246,8 @@ class BacktestEngine(IBacktestEngine):
                 # Get available market data for current date
                 daily_market_data = self._get_market_data_for_date(current_date)
                 
+
+                
                 if not daily_market_data:
                     continue  # Skip days with no market data
                 

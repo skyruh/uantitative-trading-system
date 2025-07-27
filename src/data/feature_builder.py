@@ -111,13 +111,12 @@ class FeatureBuilder(IFeatureEngineer):
             self.logger.error(f"Error calculating sentiment scores: {str(e)}")
             return [0.0] * len(news_data)
     
-    def build_features(self, price_data: pd.DataFrame, sentiment_data: List[float]) -> pd.DataFrame:
+    def build_features(self, price_data: pd.DataFrame) -> pd.DataFrame:
         """
         Combine all features for model training.
         
         Args:
             price_data: DataFrame with price and technical indicator data
-            sentiment_data: List of sentiment scores
             
         Returns:
             DataFrame with combined features
@@ -129,20 +128,10 @@ class FeatureBuilder(IFeatureEngineer):
         try:
             result = price_data.copy()
             
-            # Add sentiment scores if available
-            if sentiment_data and len(sentiment_data) == len(price_data):
-                result['sentiment_score'] = sentiment_data
-                self.logger.info(f"Added sentiment scores to {len(result)} data points")
-            else:
-                # Fill with neutral sentiment if no sentiment data
-                result['sentiment_score'] = 0.0
-                if sentiment_data:
-                    self.logger.warning(f"Sentiment data length ({len(sentiment_data)}) doesn't match price data length ({len(price_data)})")
-                else:
-                    self.logger.info("No sentiment data provided, using neutral sentiment")
+            # Sentiment data removed - no longer using sentiment features
             
             # Ensure all required feature columns exist
-            required_features = ['rsi_14', 'sma_50', 'bb_upper', 'bb_middle', 'bb_lower', 'sentiment_score']
+            required_features = ['rsi_14', 'sma_50', 'bb_upper', 'bb_middle', 'bb_lower']
             for feature in required_features:
                 if feature not in result.columns:
                     result[feature] = np.nan

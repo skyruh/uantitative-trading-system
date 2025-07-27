@@ -175,36 +175,7 @@ def validate_technical_indicators(data, symbol: str) -> Tuple[bool, List[str]]:
     return is_valid, issues
 
 
-def validate_sentiment_scores(scores: List[float]) -> Tuple[bool, List[str]]:
-    """
-    Validate sentiment scores.
-    
-    Args:
-        scores: List of sentiment scores
-    
-    Returns:
-        Tuple of (is_valid, list_of_issues)
-    """
-    issues = []
-    
-    if not scores:
-        issues.append("Empty sentiment scores list")
-        return False, issues
-    
-    # Check score range (-1 to 1)
-    for i, score in enumerate(scores):
-        if not isinstance(score, (int, float)):
-            issues.append(f"Non-numeric sentiment score at index {i}")
-        elif score < -1 or score > 1:
-            issues.append(f"Sentiment score outside valid range (-1 to 1) at index {i}: {score}")
-    
-    # Check for excessive neutral scores (might indicate processing issues)
-    neutral_count = sum(1 for score in scores if abs(score) < 0.01)
-    if neutral_count / len(scores) > 0.9:
-        issues.append(f"Excessive neutral sentiment scores: {neutral_count}/{len(scores)}")
-    
-    is_valid = len(issues) == 0
-    return is_valid, issues
+# Sentiment validation removed - no longer using sentiment data
 
 
 def validate_trading_signal(signal: Dict[str, Any]) -> Tuple[bool, List[str]]:
@@ -221,7 +192,7 @@ def validate_trading_signal(signal: Dict[str, Any]) -> Tuple[bool, List[str]]:
     
     # Check required fields
     required_fields = ['symbol', 'timestamp', 'action', 'confidence', 
-                      'lstm_prediction', 'dqn_q_values', 'sentiment_score', 
+                      'lstm_prediction', 'dqn_q_values', 
                       'risk_adjusted_size']
     
     for field in required_fields:

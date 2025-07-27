@@ -251,7 +251,6 @@ def log_trading_decision(signal: dict, logger_name: str = "Trading"):
     logger.info(f"  Action: {signal.get('action', 'N/A')}")
     logger.info(f"  Confidence: {signal.get('confidence', 0):.4f}")
     logger.info(f"  LSTM Prediction: {signal.get('lstm_prediction', 0):.4f}")
-    logger.info(f"  Sentiment Score: {signal.get('sentiment_score', 0):.4f}")
     logger.info(f"  Position Size: {signal.get('risk_adjusted_size', 0):.4f}")
     
     # Structured logging for analysis
@@ -262,7 +261,6 @@ def log_trading_decision(signal: dict, logger_name: str = "Trading"):
         'action': signal.get('action'),
         'confidence': signal.get('confidence', 0),
         'lstm_prediction': signal.get('lstm_prediction', 0),
-        'sentiment_score': signal.get('sentiment_score', 0),
         'position_size': signal.get('risk_adjusted_size', 0),
         'timestamp': datetime.now().isoformat(),
         'dqn_q_values': signal.get('dqn_q_values', {}),

@@ -668,15 +668,13 @@ class DataNormalizer:
         return train_data, test_data, stats
     
     def combine_features(self, price_data: pd.DataFrame, 
-                        technical_indicators: pd.DataFrame = None,
-                        sentiment_data: pd.DataFrame = None) -> Tuple[pd.DataFrame, Dict[str, Any]]:
+                        technical_indicators: pd.DataFrame = None) -> Tuple[pd.DataFrame, Dict[str, Any]]:
         """
-        Combine price data with technical indicators and sentiment scores.
+        Combine price data with technical indicators.
         
         Args:
             price_data: DataFrame with OHLCV data
             technical_indicators: Optional DataFrame with technical indicators
-            sentiment_data: Optional DataFrame with sentiment scores
             
         Returns:
             Tuple of (combined_data, combination_stats)
@@ -707,16 +705,7 @@ class DataNormalizer:
                     stats["added_features"].append(col)
                     logger.debug(f"Added technical indicator: {col}")
         
-        # Add sentiment data
-        if sentiment_data is not None and not sentiment_data.empty:
-            # Align indices and merge
-            aligned_sentiment = sentiment_data.reindex(combined_data.index)
-            
-            for col in sentiment_data.columns:
-                if col not in combined_data.columns:
-                    combined_data[col] = aligned_sentiment[col]
-                    stats["added_features"].append(col)
-                    logger.debug(f"Added sentiment feature: {col}")
+        # Sentiment data removed - no longer using sentiment features
         
         # Handle missing values in combined data
         missing_before = combined_data.isnull().sum().sum()

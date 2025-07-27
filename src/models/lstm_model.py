@@ -229,14 +229,15 @@ class LSTMModel(ILSTMModel):
             if len(X) < 100:
                 raise ValueError(f"Insufficient training data. Need at least 100 sequences, got {len(X)}")
             
-            # Configure callbacks with GPU optimizations
+            # Configure callbacks with GPU optimizations (early stopping removed)
             callbacks = [
-                EarlyStopping(
-                    monitor='val_loss',
-                    patience=15,
-                    restore_best_weights=True,
-                    verbose=1
-                ),
+                # EarlyStopping removed - training for full epochs
+                # EarlyStopping(
+                #     monitor='val_loss',
+                #     patience=15,
+                #     restore_best_weights=True,
+                #     verbose=1
+                # ),
                 ReduceLROnPlateau(
                     monitor='val_loss',
                     factor=0.5,

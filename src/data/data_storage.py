@@ -109,7 +109,7 @@ class DataStorage(IDataStorage):
     def _get_stock_file_path(self, symbol: str) -> Path:
         """Get file path for stock data."""
         symbol = self._validate_symbol(symbol)
-        return self.base_path / "stocks" / f"{symbol}.csv"
+        return self.base_path / "stocks" / f"{symbol}_data.csv"
     
     def _get_news_file_path(self, symbol: str) -> Path:
         """Get file path for news data."""

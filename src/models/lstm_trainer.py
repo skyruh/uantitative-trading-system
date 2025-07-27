@@ -236,15 +236,15 @@ class LSTMTrainer:
         """
         callbacks = []
         
-        # Early stopping
-        early_stopping = EarlyStopping(
-            monitor='val_loss',
-            patience=patience,
-            restore_best_weights=True,
-            verbose=1,
-            mode='min'
-        )
-        callbacks.append(early_stopping)
+        # Early stopping removed - training for full epochs
+        # early_stopping = EarlyStopping(
+        #     monitor='val_loss',
+        #     patience=patience,
+        #     restore_best_weights=True,
+        #     verbose=1,
+        #     mode='min'
+        # )
+        # callbacks.append(early_stopping)
         
         # Model checkpointing
         if save_best_only:

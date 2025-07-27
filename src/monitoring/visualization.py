@@ -788,11 +788,14 @@ class TradingVisualizer:
         """
         try:
             self.logger.info("Creating backtest visualizations...")
+            self.logger.debug(f"Performance metrics type: {type(performance_metrics)}")
             
             # Extract data from backtest results
             portfolio_values = backtest_results.get('portfolio_values', [])
             trade_logs = backtest_results.get('trade_logs', [])
             benchmark_data = backtest_results.get('benchmark_data')
+            
+            self.logger.debug(f"Portfolio values: {len(portfolio_values)}, Trade logs: {len(trade_logs)}")
             
             if not portfolio_values:
                 self.logger.warning("No portfolio values available for visualization")
@@ -805,18 +808,21 @@ class TradingVisualizer:
             viz_paths = []
             
             # 1. Cumulative returns plot
+            self.logger.debug("Creating cumulative returns plot...")
             cum_returns_path = perf_visualizer.plot_cumulative_returns(
                 portfolio_values, benchmark_data)
             if cum_returns_path:
                 viz_paths.append(cum_returns_path)
             
             # 2. Drawdown analysis
+            self.logger.debug("Creating drawdown analysis...")
             drawdown_path = perf_visualizer.plot_drawdown_analysis(portfolio_values)
             if drawdown_path:
                 viz_paths.append(drawdown_path)
             
             # 3. Trade signals for top stocks
             if trade_logs:
+                self.logger.debug("Creating trade signals plots...")
                 # Get top 5 stocks by trade count
                 stock_counts = {}
                 for trade in trade_logs:
@@ -834,6 +840,7 @@ class TradingVisualizer:
                             viz_paths.append(signal_path)
             
             # 4. Performance dashboard
+            self.logger.debug("Creating performance dashboard...")
             dashboard_path = perf_visualizer.create_performance_dashboard(
                 portfolio_values, [], trade_logs, benchmark_data)
             if dashboard_path:
@@ -992,114 +999,3 @@ class TradingVisualizer:
             self.logger.error(f"Error creating model predictions plot for {symbol}: {e}")
             return ""
 
-class TradingVisualizer:
-    """
-    Visualization system for trading signals and market data.
-    Provides visualizations for trading decisions, market conditions, and signal analysis.
-    """
-    
-    def __init__(self, output_dir: str = "data/visualizations/trading"):
-        """
-        Initialize trading visualizer.
-        
-        Args:
-            output_dir: Directory to save visualization outputs
-        """
-        self.output_dir = output_dir
-        self.logger = get_logger("TradingVisualizer")
-        
-        # Create output directory
-        os.makedirs(output_dir, exist_ok=True)
-        
-        # Set up plotting style
-        self._setup_plotting_style()
-        
-        self.logger.info(f"Trading visualizer initialized with output dir: {output_dir}")
-    
-    def _setup_plotting_style(self):
-        """Set up consistent plotting style."""
-        plt.style.use('seaborn-v0_8')
-        sns.set_palette("husl")
-        
-        # Set default figure parameters
-        plt.rcParams.update({
-            'figure.figsize': (12, 8),
-            'font.size': 10,
-            'axes.titlesize': 14,
-            'axes.labelsize': 12,
-            'xtick.labelsize': 10,
-            'ytick.labelsize': 10,
-            'legend.fontsize': 10,
-            'figure.titlesize': 16
-        })
-    
-    def create_backtest_visualizations(self, backtest_results: Dict, performance_metrics: Dict) -> bool:
-        """
-        Create visualizations for backtest results.
-        
-        Args:
-            backtest_results: Dictionary containing backtest results
-            performance_metrics: Dictionary containing performance metrics
-            
-        Returns:
-            Boolean indicating success
-        """
-        try:
-            self.logger.info("Creating backtest visualizations...")
-            
-            # Extract data from backtest results
-            portfolio_values = backtest_results.get('portfolio_values', [])
-            trade_logs = backtest_results.get('trade_logs', [])
-            benchmark_data = backtest_results.get('benchmark_data')
-            
-            if not portfolio_values:
-                self.logger.warning("No portfolio values available for visualization")
-                return False
-            
-            # Create performance visualizer
-            perf_visualizer = PerformanceVisualizer()
-            
-            # Generate visualizations
-            viz_paths = []
-            
-            # 1. Cumulative returns plot
-            cum_returns_path = perf_visualizer.plot_cumulative_returns(
-                portfolio_values, benchmark_data)
-            if cum_returns_path:
-                viz_paths.append(cum_returns_path)
-            
-            # 2. Drawdown analysis
-            drawdown_path = perf_visualizer.plot_drawdown_analysis(portfolio_values)
-            if drawdown_path:
-                viz_paths.append(drawdown_path)
-            
-            # 3. Trade signals for top stocks
-            if trade_logs:
-                # Get top 5 stocks by trade count
-                stock_counts = {}
-                for trade in trade_logs:
-                    stock_counts[trade.symbol] = stock_counts.get(trade.symbol, 0) + 1
-                
-                top_stocks = sorted(stock_counts.items(), key=lambda x: x[1], reverse=True)[:5]
-                
-                for symbol, _ in top_stocks:
-                    # Get price data for this symbol
-                    price_data = backtest_results.get('price_data', {}).get(symbol)
-                    if price_data is not None:
-                        signal_path = perf_visualizer.plot_trade_signals_with_sentiment(
-                            price_data, trade_logs, symbol)
-                        if signal_path:
-                            viz_paths.append(signal_path)
-            
-            # 4. Performance dashboard
-            dashboard_path = perf_visualizer.create_performance_dashboard(
-                portfolio_values, [], trade_logs, benchmark_data)
-            if dashboard_path:
-                viz_paths.append(dashboard_path)
-            
-            self.logger.info(f"Created {len(viz_paths)} backtest visualizations")
-            return len(viz_paths) > 0
-            
-        except Exception as e:
-            self.logger.error(f"Error creating backtest visualizations: {e}")
-            return False
