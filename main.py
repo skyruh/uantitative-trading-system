@@ -156,6 +156,60 @@ def run_backtesting_mode(orchestrator: TradingSystemOrchestrator):
     return success
 
 
+def run_live_mode(orchestrator: TradingSystemOrchestrator):
+    """Run the system in live paper trading mode."""
+    logger = get_logger("Main")
+    logger.info("Starting live paper trading mode...")
+    
+    try:
+        # Import live trading components
+        from src.trading.live_trading_orchestrator import LiveTradingOrchestrator
+        
+        # Load trading symbols
+        symbols_file = config.data.stock_symbols_file
+        try:
+            with open(symbols_file, 'r') as f:
+                symbols = [line.strip() for line in f if line.strip() and not line.startswith('#')]
+            # Limit to first 10 symbols for live trading
+            symbols = symbols[:10]
+        except FileNotFoundError:
+            logger.warning(f"Symbols file not found: {symbols_file}, using defaults")
+            symbols = ["RELIANCE.NS", "TCS.NS", "INFY.NS", "HDFCBANK.NS", "ICICIBANK.NS"]
+        
+        # Create live trading orchestrator
+        live_orchestrator = LiveTradingOrchestrator(
+            symbols=symbols,
+            initial_capital=config.backtest.initial_capital
+        )
+        
+        # Start live trading
+        live_orchestrator.start_live_trading()
+        
+        logger.info("Live paper trading started - use Ctrl+C to stop")
+        
+        # Keep running until interrupted
+        import time
+        try:
+            while True:
+                time.sleep(60)  # Status check every minute
+                status = live_orchestrator.get_live_status()
+                logger.info(f"Live Status - Trades: {status['daily_trades']}, "
+                           f"Portfolio: ₹{status['performance']['portfolio_value']:,.2f}, "
+                           f"Return: {status['performance']['total_return_pct']:+.2f}%")
+        except KeyboardInterrupt:
+            logger.info("Keyboard interrupt received, stopping live trading...")
+        
+        # Stop live trading
+        live_orchestrator.stop_live_trading()
+        logger.info("Live paper trading stopped")
+        
+        return True
+        
+    except Exception as e:
+        logger.error(f"Error in live trading mode: {str(e)}")
+        return False
+
+
 def run_complete_workflow(orchestrator: TradingSystemOrchestrator):
     """Run complete end-to-end workflow."""
     logger = get_logger("Main")
@@ -219,7 +273,7 @@ def main():
     
     parser = argparse.ArgumentParser(description="Quantitative Trading System")
     parser.add_argument("--mode", 
-                       choices=["setup", "collect", "train", "backtest", "complete", "status"], 
+                       choices=["setup", "collect", "train", "backtest", "live", "complete", "status"], 
                        default="setup", 
                        help="Operation mode")
     parser.add_argument("--config", help="Configuration file path")
@@ -258,6 +312,9 @@ def main():
             
         elif args.mode == "backtest":
             success = run_backtesting_mode(orchestrator)
+            
+        elif args.mode == "live":
+            success = run_live_mode(orchestrator)
             
         elif args.mode == "complete":
             success = run_complete_workflow(orchestrator)
