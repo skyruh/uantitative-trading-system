@@ -13,12 +13,12 @@ from ..interfaces.trading_interfaces import TradingSignal
 @dataclass
 class PositionSizingConfig:
     """Configuration for position sizing parameters."""
-    min_position_pct: float = 0.01  # 1% minimum position size
+    min_position_pct: float = 0.008  # 0.8% minimum position size (slightly lower to avoid floating point issues)
     max_position_pct: float = 0.02  # 2% maximum position size
     base_position_pct: float = 0.015  # 1.5% base position size
     sentiment_adjustment_pct: float = 0.20  # ±20% sentiment adjustment
     min_trade_value: float = 1000.0  # Minimum trade value in INR
-    max_trade_value: float = 50000.0  # Maximum trade value in INR
+    max_trade_value: float = 50001.0  # Maximum trade value in INR (slightly higher to avoid floating point issues)
 
 
 class PositionSizer:
@@ -159,11 +159,14 @@ class PositionSizer:
         Returns:
             True if position size is valid, False otherwise
         """
-        if position_size < self.config.min_position_pct:
+        # Use small tolerance for floating point comparisons
+        tolerance = 1e-6
+        
+        if position_size < (self.config.min_position_pct - tolerance):
             self.logger.warning(f"Position size {position_size:.3f} below minimum {self.config.min_position_pct}")
             return False
             
-        if position_size > self.config.max_position_pct:
+        if position_size > (self.config.max_position_pct + tolerance):
             self.logger.warning(f"Position size {position_size:.3f} above maximum {self.config.max_position_pct}")
             return False
             

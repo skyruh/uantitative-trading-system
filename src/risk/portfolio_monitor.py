@@ -119,8 +119,9 @@ class PortfolioMonitor:
                 new_signal.risk_adjusted_size, new_signal.sentiment_score
             )
             
-            # Check individual position size limit
-            if adjusted_size > self.config.max_position_pct:
+            # Check individual position size limit (with small tolerance for floating point precision)
+            tolerance = 1e-6
+            if adjusted_size > (self.config.max_position_pct + tolerance):
                 return False, f"Position size {adjusted_size:.3f} exceeds limit {self.config.max_position_pct:.3f}"
             
             # Check sector concentration

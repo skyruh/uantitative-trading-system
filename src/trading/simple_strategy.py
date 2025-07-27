@@ -22,19 +22,22 @@ class SimpleTradingStrategy(ITradingStrategy):
     3. Implements basic risk management rules
     """
     
-    def __init__(self, signal_generator: SignalGenerator, position_manager: PositionManager):
+    def __init__(self, signal_generator: SignalGenerator, position_manager: PositionManager, 
+                 allow_short_selling: bool = False):
         """
         Initialize the trading strategy.
         
         Args:
             signal_generator: Signal generator instance
             position_manager: Position manager instance
+            allow_short_selling: Whether to allow short selling (for intraday trading)
         """
         self.signal_generator = signal_generator
         self.position_manager = position_manager
+        self.allow_short_selling = allow_short_selling
         self.logger = logging.getLogger(__name__)
         
-        self.logger.info("SimpleTradingStrategy initialized")
+        self.logger.info(f"SimpleTradingStrategy initialized (short selling: {'enabled' if allow_short_selling else 'disabled'})")
     
     def execute_strategy(self, market_data: Dict) -> List[TradingSignal]:
         """
@@ -120,6 +123,15 @@ class SimpleTradingStrategy(ITradingStrategy):
                 # If we have a position and signal is to sell, allow it (exit signal)
                 if signal.action == 'sell':
                     return True
+            else:
+                # No existing position - handle based on short selling setting
+                if signal.action == 'sell':
+                    if self.allow_short_selling:
+                        self.logger.debug(f"Allowing sell signal for {signal.symbol} - short selling enabled")
+                        return True
+                    else:
+                        self.logger.debug(f"Skipping sell signal for {signal.symbol} - no position and short selling disabled")
+                        return False
             
             # For new positions, check available capital
             if signal.action == 'buy':
@@ -159,16 +171,22 @@ class SimpleTradingStrategy(ITradingStrategy):
                 return position
                 
             elif signal.action == 'sell':
-                # Close existing position
+                # Check if we have an existing position
                 existing_position = self.position_manager.get_position_by_symbol(signal.symbol)
                 if existing_position:
+                    # Close existing long position
                     # Use a placeholder close price - in real implementation this would be current market price
                     close_price = existing_position.entry_price * 1.02  # Assume 2% gain for demo
                     closed_position = self.position_manager.close_position(existing_position, close_price)
-                    self.logger.info(f"Closed position for {signal.symbol}")
+                    self.logger.info(f"Closed long position for {signal.symbol}")
                     return closed_position
+                elif self.allow_short_selling:
+                    # Open new short position (sell without owning)
+                    position = self.position_manager.open_position(signal, signal.risk_adjusted_size)
+                    self.logger.info(f"Opened short position for {signal.symbol}")
+                    return position
                 else:
-                    self.logger.warning(f"Sell signal for {signal.symbol} but no existing position")
+                    self.logger.warning(f"Sell signal for {signal.symbol} but no existing position and short selling disabled")
                     return None
             
             return None

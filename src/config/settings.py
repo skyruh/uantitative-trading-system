@@ -83,6 +83,7 @@ class BacktestConfig:
     transaction_cost: float = 0.001  # 0.1%
     slippage: float = 0.0005  # 0.05%
     use_leverage: bool = False
+    allow_short_selling: bool = False  # Enable short selling for intraday trading
     train_start_date: str = "1995-01-01"
     train_end_date: str = "2019-12-31"
     test_start_date: str = "2020-01-01"

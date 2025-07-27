@@ -83,7 +83,11 @@ class TradingSystemOrchestrator:
             
             # Import and create trading strategy
             from src.trading.simple_strategy import SimpleTradingStrategy
-            self.trading_strategy = SimpleTradingStrategy(self.signal_generator, self.position_manager)
+            self.trading_strategy = SimpleTradingStrategy(
+                self.signal_generator, 
+                self.position_manager,
+                allow_short_selling=config.backtest.allow_short_selling
+            )
             
             # Analysis components
             self.backtest_engine = BacktestEngine()

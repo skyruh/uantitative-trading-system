@@ -28,6 +28,7 @@ class BacktestConfig:
     end_date: str = "2025-01-01"
     benchmark_symbol: str = "^NSEI"  # NIFTY 50 index
     rebalance_frequency: str = "daily"  # daily, weekly, monthly
+    allow_short_selling: bool = False  # Enable short selling for intraday trading
     
     def __post_init__(self):
         """Validate configuration parameters."""
@@ -439,8 +440,11 @@ class BacktestEngine(IBacktestEngine):
                 )
                 
                 if not is_valid:
+                    print(f"DEBUG: Trade rejected for {signal.symbol}: {reason}")
                     self.logger.debug(f"Trade rejected for {signal.symbol}: {reason}")
                     continue
+                else:
+                    print(f"DEBUG: Trade validated for {signal.symbol}: {signal.action}")
                 
                 # Process based on signal action
                 if signal.action == 'buy':
